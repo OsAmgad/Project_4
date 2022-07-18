@@ -1,0 +1,472 @@
+* {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar .navbar-brand {
+  font-size: 32px;
+}
+
+/* ============== Start Header =============== */
+.header {
+  padding: 50px 0;
+  height: 100vh;
+}
+
+.header .intro button {
+  margin-bottom: 30px;
+}
+
+.header .row {
+  margin-top: 25vh;
+}
+
+.header h1 span {
+  font-weight: normal;
+}
+
+.header .form-right {
+  padding: 0;
+  background-color: #fff;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.header .form-right h2 {
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.header form input {
+  width: 80%;
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
+  margin: 30px auto;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ff8b38;
+  padding: 10px;
+}
+
+.header form input:last-child {
+  width: 100%;
+  margin: 0;
+}
+
+/* ============== End Header =============== */
+/* ============== Start Social Media =============== */
+.social .icons i {
+  color: #777;
+  margin: 20px 10px;
+}
+
+.social .icons .fa-facebook:hover {
+  color: #1877f2;
+}
+
+.social .icons .fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.social .icons .fa-google-plus-g:hover {
+  color: #dd4b39;
+}
+
+.social .icons .fa-pinterest:hover {
+  color: #e60023;
+}
+
+.social .icons .fa-instagram:hover {
+  color: #e1306c;
+}
+
+.social .icons .fa-stumbleupon:hover {
+  color: #eb4924;
+}
+
+.social .icons .fa-rss:hover {
+  color: #f26522;
+}
+
+/* ============== End Social Media =============== */
+/* ============== Start tabs =============== */
+.tabs .tab-switch ul li {
+  cursor: pointer;
+  height: 110px;
+  line-height: 110px;
+}
+
+.tabs .tab-content {
+  padding: 0 30px;
+  margin: 20px 0;
+}
+
+.tabs .tab-content div:not(:first-child) {
+  display: none;
+}
+
+.tabs .tab-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ============== End tabs =============== */
+/* ============== Start Sub List =============== */
+.sub-list .sub-img {
+  margin: 50px 0;
+}
+
+.sub-list .sub-img img,
+.standard .standard-img img {
+  width: 80%;
+  height: 100%;
+  -webkit-box-shadow: 10px 10px 20px #777;
+          box-shadow: 10px 10px 20px #777;
+}
+
+.sub-list .sub-content .title i,
+.standard .standard-content .title i {
+  float: left;
+  width: 40px;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+  height: 40px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.sub-list .sub-content .title .info,
+.standard .standard-content .title .info {
+  margin: auto;
+  width: 80%;
+}
+
+/* ============== End Sub List =============== */
+/* ============== Start standard =============== */
+.standard .standard-content {
+  margin-top: 50px;
+}
+
+/* ============== End standard =============== */
+/* ============== Start Awesome =============== */
+.awesome .design i {
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 15px 0;
+  line-height: 55px;
+}
+
+/* ============== End Awesome =============== */
+/* ============== Start Pricing Options =============== */
+.price .price-option .price-box {
+  margin: 0 5px;
+  padding: 0;
+  font-style: italic;
+}
+
+.price .price-option .price-box > span {
+  display: block;
+  padding: 10px;
+}
+
+.price .price-option .price-box ul {
+  background-color: #fff;
+  margin: 0;
+  color: #777;
+}
+
+.price .price-option .price-box ul li {
+  padding: 5px;
+}
+
+.price .price-option .price-box p {
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.price .price-option .price-box p span {
+  font-size: 60px;
+}
+
+.price .price-option .price-box:not(:nth-child(2)) p {
+  border-bottom: 3px solid #ff8b38;
+}
+
+.price .price-option .price-box .customized {
+  padding: 5px;
+  margin: 0;
+}
+
+.price .price-option:not(:nth-child(2)) {
+  margin-top: 35px;
+}
+
+/* ============== End Pricing Options =============== */
+/* ============== Start Testimonials =============== */
+.testimonials .testim-box > p {
+  padding: 20px;
+  position: relative;
+  text-align: left;
+}
+
+.testimonials .testim-box > p::after {
+  content: '';
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-width: 15px;
+  border-color: #ddd transparent transparent;
+  left: 25px;
+  bottom: -30px;
+}
+
+.testimonials .customer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.testimonials .customer img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.testimonials .customer .info {
+  margin-top: 20px;
+}
+
+.testimonials .customer .info p {
+  margin: 0;
+}
+
+.testimonials .customer .info span {
+  font-size: 14px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============== End Testimonials =============== */
+/* ============== Start Stylish =============== */
+.stylish {
+  min-height: 400px;
+}
+
+.stylish p {
+  color: #ccc;
+}
+
+/* ============== End Stylish =============== */
+/*============== Start Contact Us ============ */
+.conact-us {
+  padding-bottom: 0;
+}
+
+.conact-us .row {
+  padding-bottom: 25px;
+}
+
+.conact-us form input,
+.conact-us form textarea {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.conact-us .footer {
+  padding: 20px 0 10px 0;
+}
+
+.conact-us .footer i {
+  margin: 0 10px;
+}
+
+.conact-us .footer p {
+  margin-top: 10px;
+}
+
+/*============== End Contact Us ============ */
+@media (max-width: 767px) {
+  .header .row {
+    margin-top: 0;
+  }
+  .header .intro p:last-of-type {
+    display: none;
+  }
+  .social,
+  .tabs,
+  .sub-list,
+  .standard {
+    text-align: center !important;
+  }
+  .social .icons i {
+    font-size: 32px;
+  }
+  .sub-list .sub-content .title i,
+  .standard .standard-content .title i {
+    float: none !important;
+  }
+  .conact-us button {
+    font-size: 18px;
+  }
+  .footer i {
+    font-size: 32px;
+  }
+}
+
+section {
+  padding: 60px 0;
+}
+
+.scrolled {
+  opacity: .5;
+  position: fixed;
+  width: 100%;
+}
+
+.scrolled:hover {
+  opacity: 1;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+h2,
+h3,
+h4 {
+  color: #333;
+  font-weight: bold;
+}
+
+.after-heading::after,
+.header form input:last-child,
+.tabs .tab-switch ul li.active,
+.price .price-option .price-box .customized {
+  background-color: #ff8b38;
+}
+
+.navbar .navbar-brand span,
+.header h1 span,
+.header .form-right h2 span,
+.tabs .tab-content h2 span,
+.sub-list .sub-content .title i,
+.standard .standard-content .title i,
+.awesome .design i {
+  color: #ff8b38;
+}
+
+button,
+.header,
+.header form input:last-child,
+.tabs .tab-switch ul li,
+.price .price-option .price-box,
+.price .price-option .price-box > span,
+.stylish,
+.stylish h2,
+.footer i,
+.footer p {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.after-heading::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  margin: 10px auto;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  background: none;
+  border-radius: 5px;
+  background-color: #ff8b38;
+}
+
+.tabs .tab-switch ul li,
+.price .price-option .price-box > span,
+.price .price-option .price-box p,
+.footer {
+  background-color: #333;
+}
+
+.header h1,
+.header .lead,
+.tabs .tab-content h2,
+.testimonials .testim-box > p,
+.testimonials .customer,
+.stylish h2,
+.stylish p,
+.conact-us button {
+  margin-bottom: 25px;
+}
+
+.header .lead,
+.header .form-right h2,
+.sub-list .sub-content .title i,
+.standard .standard-content .title i,
+.price .price-option .price-box > span,
+.conact-us button {
+  font-size: 24px;
+}
+
+.tabs .tab-switch ul li,
+.price .price-option .price-box > span,
+.price .price-option .price-box ul li {
+  border-bottom: 1px solid #eee;
+}
+
+p {
+  line-height: 1.6;
+  color: #777;
+}
+
+.edit-backgroung-img {
+  position: relative;
+  background: url("../imgs/01.jpeg") fixed;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.fnt-bold {
+  font-weight: bold;
+}
+
+.header .lead::after,
+.header .form-right h2,
+.tabs,
+.standard,
+.price,
+.testimonials .testim-box > p,
+.price .price-option .price-box,
+.stylish h2::after {
+  background-color: #ddd;
+}
+/*# sourceMappingURL=main.css.map */
